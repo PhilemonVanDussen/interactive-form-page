@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(ZenDots-Regular.ttf);
+}
+
+:root {
+    font-size: 16px;
+    font-family: myFont;
+    --purple-dark: purple; 
+    --purple-mid: rgb(177, 3, 177);
+    --purple-light: rgb(221, 6, 221);
+    --shadow: rgb(37, 35, 35);
+}
+
+body {
+    background-image: linear-gradient(to right, var(--purple-light), var(--purple-mid), var(--purple-dark));
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "first-q"
+        "second-q"
+        "third-q"
+        "fouth-q"
+        "fivth-q"
+        "seventh-q"
+        "eighth-q"
+        "nineth-q"
+        "tenth-q";
+        gap: 5px;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 10px;
+}
+
+main {
+    background-color: azure;
+    width: 75%;
+    margin: auto;
+
+}
+
+#first-q {grid-area: first-q;}
+#second-q {grid-area: second-q;}
+#first-q {grid-area: first-q;}
+#first-q {grid-area: first-q;}
+#first-q {grid-area: first-q;}
+#first-q {grid-area: first-q;}
+#first-q {grid-area: first-q;}
+#first-q {grid-area: first-q;}
+#first-q {grid-area: first-q;}
+#first-q {grid-area: first-q;}
