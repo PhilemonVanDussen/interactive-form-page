@@ -1,0 +1,10 @@
+- Question 1: What is your favorite genre for games? #leave examples in text box
+- Question 2: Do you like playing... (options: co-op, multiplayer, single player)
+- Question 3: Do you enjoy playing games because they are... (options: relaxing and fun, competetive and challenging, strategic and innovative, adventurous and exploring)
+- Question 4: How long are your gaming sessions? #leave examples in text box
+- Question 5: What type of platform do you use for gaming? #leave examples in text box
+- Question 6: Are retro games fun? (options: yes, no, sometimes)
+- Question 7: When do you realize you need to hop off? (options: When my back hurts, When I start to get very emotional, When I start to get hungry/thirsty/sleepy, I never left my basement)
+- Question 8: If you could pick a streamer you could play with who what it be? 
+- Question 9: Will you make a career off of playing games? (options: Yes, Im determine to be an elite esports player, Yes, streaming is something I been dying to do, No, playing games is just hobby for me)
+- Question 10: How long has it been since you last play your favorite game? (options: I just got off of it, It's been a couple of days, Jeez it's been months, There's a reason why I stopped playing)
