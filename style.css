@@ -15,11 +15,14 @@
     --purple-dark: purple; 
     --purple-mid: rgb(177, 3, 177);
     --purple-light: rgb(221, 6, 221);
+    
     --shadow: rgb(37, 35, 35);
 }
 
 body {
-    background-image: linear-gradient(to right, var(--purple-light), var(--purple-mid), var(--purple-dark));
+    background-image: linear-gradient(rgba(143, 35, 175, 0.5), rgba(143, 35, 175, 0.5)),
+    url(techno-form-bg.jpg);
+    background-position: center;
 }
 
 form {
@@ -37,18 +40,44 @@ form {
         "seventh-q"
         "eighth-q"
         "nineth-q"
-        "tenth-q";
-        gap: 5px;
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 10px;
+        "tenth-q"
+        "submit";
+        gap: 30px;
+        padding: 10px
+
+        
+       
 }
 
 main {
     background-color: azure;
-    width: 75%;
+    width: 50%;
     margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+}
 
+h1 {
+    text-align: center;
+    color: var(--purple-light);
+}
+
+p {
+    text-align: center;
+    margin-top: 1%;
+    max-width: 900px;
+    color: var(--purple-mid);
+}
+
+label {
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+    color: var(--purple-dark)
+}
+
+.input-control input:focus {
+    outline: 0;
 }
 
 #first-q {grid-area: first-q;}
@@ -61,3 +90,24 @@ main {
 #eighth-q {grid-area: eighth-q;}
 #nineth-q {grid-area: nineth-q;}
 #tenth-q {grid-area: tenth-q;}
+#submit {grid-area: submit}
+
+
+
+
+@media (min-width: 600px) {
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "first-q second-q"
+        "third-q fouth-q"
+        "fivth-q sixth-q"
+        "seventh-q eighth-q"
+        "nineth-q tenth-q"
+        "submit submit";
+        
+    }
+
+}
