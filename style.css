@@ -33,6 +33,7 @@ form {
         "third-q"
         "fouth-q"
         "fivth-q"
+        "sixth-q"
         "seventh-q"
         "eighth-q"
         "nineth-q"
@@ -52,11 +53,11 @@ main {
 
 #first-q {grid-area: first-q;}
 #second-q {grid-area: second-q;}
-#first-q {grid-area: first-q;}
-#first-q {grid-area: first-q;}
-#first-q {grid-area: first-q;}
-#first-q {grid-area: first-q;}
-#first-q {grid-area: first-q;}
-#first-q {grid-area: first-q;}
-#first-q {grid-area: first-q;}
-#first-q {grid-area: first-q;}
+#third-q {grid-area: third-q;}
+#fouth-q {grid-area: fouth-q;}
+#fivth-q {grid-area: fivth-q;}
+#sixth-q {grid-area: sixth-q;}
+#seventh-q {grid-area: seventh-q;}
+#eighth-q {grid-area: eighth-q;}
+#nineth-q {grid-area: nineth-q;}
+#tenth-q {grid-area: tenth-q;}
