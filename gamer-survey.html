@@ -10,15 +10,16 @@
     <main>
         <h1>Gamer Survey</h1>
         <p id="paragraph">These questions below are meant for gamers so if you don't understand them just back out and explore the home page! </p>
-        <form>
+        <form id="form">
             <div class="input-control">
-                <label for="first-q">first question</label>
-                <input type="text" name="first-q" id="first-q">
+                <label for="first-q">What is your favorite genre for games?</label>
+                <input type="text" name="first-q" id="first-q" placeholder="FPS, Survival, RPG, etc.">
                 <div class="error"></div>
             </div>
              <div class="input-control">
-                <label for="second-q">second-q question</label>
-                <input type="text" name="second-q" id="second-q">
+                <p>Do you like playing...
+                <label for="second-q"></label>
+                <input type="radio" name="second-q" id="second-q">
                 <div class="error"></div>
             </div>
              <div class="input-control">
@@ -64,5 +65,6 @@
             <button id="submit">Submit</button>
         </form>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>

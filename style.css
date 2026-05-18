@@ -80,6 +80,19 @@ label {
     outline: 0;
 }
 
+.input-control.success input {
+    border-color: lightgreen;
+}
+
+.input-control.error input {
+    border-color:red
+}
+
+.input-control .error {
+    color: red;
+    font-size: 9px;
+    height: 13px;
+}
 #first-q {grid-area: first-q;}
 #second-q {grid-area: second-q;}
 #third-q {grid-area: third-q;}
