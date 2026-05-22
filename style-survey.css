@@ -21,32 +21,75 @@
 
 body {
     background-image: linear-gradient(rgba(143, 35, 175, 0.5), rgba(143, 35, 175, 0.5)),
-    url(techno-form-bg.jpg);
+    url(images/techno-form-bg.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 form {
     display: grid;
     grid-template-columns: 1fr;
-    display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "first-q"
-        "second-q"
-        "third-q"
-        "fouth-q"
-        "fivth-q"
-        "sixth-q"
-        "seventh-q"
-        "eighth-q"
-        "nineth-q"
-        "tenth-q"
-        "submit";
-        gap: 30px;
-        padding: 10px
+    grid-template-areas: 
+    "first-q"
+    "second-q"
+    "third-q"
+    "fouth-q"
+    "fivth-q"
+    "sixth-q"
+    "seventh-q"
+    "eighth-q"
+    "nineth-q"
+    "tenth-q"
+    "submit";
+    gap: 30px;
+    padding: 10px
 
         
        
+}
+
+nav {
+    background-color: var(--purple-mid);
+    opacity: 80%;
+    height: 70px;
+    align-content: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.nav-links li {
+    padding: 15px;
+    background-color: var(--purple-dark);
+    box-shadow: 0 6px 0px var(--shadow);
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:var(--nav-color);
+    max-width: 100%;
+    padding: 15px;
+    background-color: var(--card-color);
+}
+
+.nav-links li:hover {
+    background-color: var(--purple-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0px var(--shadow);
+}
+
+.nav-links li:active {
+    transform: translateY(4px);
+    box-shadow: 0 0px 0px var(--shadow);
 }
 
 main {
@@ -76,6 +119,15 @@ label {
     color: var(--purple-dark)
 }
 
+.input-control {
+    text-align: start;
+}
+
+.input-control input {
+    align-content: center;
+    border-color: var(--purple-mid);
+}
+
 .input-control input:focus {
     outline: 0;
 }
@@ -93,6 +145,23 @@ label {
     font-size: 9px;
     height: 13px;
 }
+
+#submit {
+    background-color: var(--purple-dark);
+    height: 40px;
+    font-family:myFont;
+    border: 1px black;
+    border-radius: 5px;
+    box-shadow: 0 5px 0px var(--shadow);
+}
+
+#submit:active {
+    transform: translateY(4px);
+}
+
+#submit:hover {
+    transform:translateY(-2px) ;
+}
 #first-q {grid-area: first-q;}
 #second-q {grid-area: second-q;}
 #third-q {grid-area: third-q;}
@@ -108,7 +177,7 @@ label {
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
 
     form {
         display: grid;
